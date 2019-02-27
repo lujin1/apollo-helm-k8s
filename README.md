@@ -2,6 +2,7 @@
 
 Apollo helm is a helm chart for [Apollo](https://github.com/ctripcorp/apollo)(Configuration management for distributed systems).
 
+
 ### TL;DR;
 
 ```
@@ -9,7 +10,9 @@ $ git clone https://github.com/qct/apollo-helm.git
 $ cd apollo-helm
 $ bash hack/run.sh
 ```
-
+-----------------------------------------------------------------------
+     从以下进行执行，上面的执行方式请进行忽视
+-----------------------------------------------------------------------
 ### Introduction
 This chart bootstraps an Apollo deployment on a Kubernetes cluster using the Helm package manager.
 
