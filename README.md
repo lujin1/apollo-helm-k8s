@@ -20,10 +20,13 @@ This chart bootstraps an Apollo deployment on a Kubernetes cluster using the Hel
 * PV support on underlying infrastructure (if persistence is required)
 
 ### Installing the Chart
-To install the chart with the release name my-release:
+To install the chart with the release name apollo:
 ```
-$ helm install --name my-release .
+$ git clone https://github.com/qct/apollo-helm.git
+$ cd apollo-helm
+$ helm install --name apollo --namespace apollo .
 ```
+
 如执行报错 mysql，mysql,mysql 则执行进行下载mysql yaml文件包：
 ```
 helm dependency update
