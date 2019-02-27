@@ -21,7 +21,10 @@ To install the chart with the release name my-release:
 ```
 $ helm install --name my-release .
 ```
-
+如执行报错 mysql，mysql,mysql 则执行进行下载mysql yaml文件包：
+```
+helm dependency update
+```
 ### Uninstalling the Chart
 To uninstall/delete the my-release deployment:
 ```
