@@ -23,6 +23,9 @@ This chart bootstraps an Apollo deployment on a Kubernetes cluster using the Hel
 $ cd pv
 $ sh pv.sh
 ```
+ReadWriteOnce – 被单个节点mount为读写rw模式
+ReadOnlyMany – 被多个节点mount为只读ro模式
+ReadWriteMany – 被多个节点mount为读写rw模式
 
 ### Installing the Chart
 To install the chart with the release name apollo:
