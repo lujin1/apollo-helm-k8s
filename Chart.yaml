@@ -6,6 +6,6 @@ version: 0.2.0
 home: https://github.com/ctripcorp/apollo
 icon: https://github.com/ctripcorp/apollo/blob/master/apollo-portal/src/main/resources/static/img/logo-detail.png
 maintainers:
-- name: qct
-  email: tango.qct@gmail.com
-  url: https://github.com/qct
+- name: lujin
+  email: lu.jin@advantech.com.cn
+  url: https://github.com/xiaojin525/apollo-helm-k8s
