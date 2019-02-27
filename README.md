@@ -18,6 +18,11 @@ This chart bootstraps an Apollo deployment on a Kubernetes cluster using the Hel
 
 ### Prerequisites Details
 * PV support on underlying infrastructure (if persistence is required)
+创建pv
+```
+$ cd pv
+$ sh pv.sh
+```
 
 ### Installing the Chart
 To install the chart with the release name apollo:
